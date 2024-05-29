@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #FF7D29;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-item .nav-link {
+    color: #00215E !important;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .nav-item {
+        margin-top: 15px;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+
+    .nav-item:hover:not(.logo-li) {
+        background-color: #00215E;
+        padding-left: 40px;
+    }
+
+    .nav-item .nav-link:hover {
+        color: #FF7D29 !important;
+    }
+
+    .logo-two {
+        color: #00215E;
+        margin-right: 20px;
+    }
+}
